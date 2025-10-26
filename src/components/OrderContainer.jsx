@@ -37,7 +37,6 @@ const OrderContainer = ({promise}) => {
     }
 
     const handleCooking = (order) => {
-        console.log(order);
         
         order.cooked_At = new Date().toLocaleTimeString();
 
