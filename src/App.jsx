@@ -27,7 +27,7 @@ function App() {
         </Suspense>
       </section>
 
-      <ToastContainer position='bottom-right' newestOnTop={true} theme='colored' hideProgressBar= {false} closeOnClick = {true} pauseOnHover draggable />
+      <ToastContainer position='bottom-right' autoClose={5000} newestOnTop={true} theme='colored' hideProgressBar= {false} closeOnClick = {true} pauseOnHover draggable />
     </>
   )
 }

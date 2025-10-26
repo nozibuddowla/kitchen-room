@@ -20,13 +20,11 @@ const OrderContainer = ({promise}) => {
 
         if(isExistCooking) {
             toast.warn("Order already on processing!", {
-                autoClose: 2000,
                 transition: Slide,
             });
             return;
         } else {
             toast.info(`New Order is ${order.order_title} !`, {
-                autoClose: 5000,
                 transition: Bounce,
         });
         }
@@ -50,7 +48,6 @@ const OrderContainer = ({promise}) => {
         setOrders(remainingOrders);
 
         toast.success(` ${order.order_title} is ready to serve!`, {
-            autoClose: 3000,
             transition: Flip,
         })
     }
