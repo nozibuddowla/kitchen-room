@@ -2,31 +2,33 @@ import React, { use, useState } from 'react';
 import States from './States';
 import OrderCard from './Cards/OrderCard';
 import CookingCard from './Cards/CookingCard';
-import { Flip, Slide, toast} from 'react-toastify';
+import { Bounce, Flip, Slide, toast} from 'react-toastify';
 import ServeCard from './Cards/ServeCard';
 
 const OrderContainer = ({promise}) => {
-    const orders = use(promise);
+    const ordersData = use(promise);
+
+    const [orders, setOrders] = useState(ordersData);
 
     const [cookingItems, setCookingItems] = useState([]);
 
     const [readyItems, setReadyItems] = useState([]);
 
     const handleOrder = (order) => {
+        
         const isExistCooking = cookingItems.find(item => item.id === order.id);
 
         if(isExistCooking) {
-            toast.warn("Already Cooking!", {
-                position: "top-center",
+            toast.warn("Order already on processing!", {
                 autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                theme: "colored",
                 transition: Slide,
-                });
+            });
             return;
+        } else {
+            toast.info(`New Order is ${order.order_title} !`, {
+                autoClose: 5000,
+                transition: Bounce,
+        });
         }
         
         const newCookingItems = [...cookingItems, order];
@@ -35,23 +37,23 @@ const OrderContainer = ({promise}) => {
     }
 
     const handleCooking = (order) => {
+        console.log(order);
+        
+        order.cooked_At = new Date().toLocaleTimeString();
+
         const newReadyItems = [...readyItems, order];
         setReadyItems(newReadyItems);
 
         const remainCookingItems = cookingItems.filter(item => item.id !== order.id);
-        
         setCookingItems(remainCookingItems);
 
+        const remainingOrders = orders.filter(item => item.id !== order.id);
+        setOrders(remainingOrders);
+
         toast.success(` ${order.order_title} is ready to serve!`, {
-                position: "top-left",
-                autoClose: 3000,
-                hideProgressBar: true,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                theme: "colored",
-                transition: Flip,
-                })
+            autoClose: 3000,
+            transition: Flip,
+        })
     }
     
     

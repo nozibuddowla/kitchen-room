@@ -4,7 +4,6 @@ import './App.css'
 import Heading from './components/Heading'
 import Navbar from './components/Navbar'
 import OrderContainer from './components/OrderContainer';
-import { Hourglass } from 'lucide-react';
 import { ToastContainer } from 'react-toastify';
 
 const loadOrders = fetch("/orders.json").then(res => res.json());
@@ -17,7 +16,7 @@ function App() {
       <header className='w-11/12 mx-auto py-4'>
         <Navbar />
       </header>
-      
+
       <section>
         <Heading>Kitchen Room</Heading>
       </section>
@@ -28,7 +27,7 @@ function App() {
         </Suspense>
       </section>
 
-      <ToastContainer />
+      <ToastContainer position='bottom-right' newestOnTop={true} theme='colored' hideProgressBar= {false} closeOnClick = {true} pauseOnHover draggable />
     </>
   )
 }
