@@ -6,7 +6,8 @@
     "table_no": 5,
     "quantity": 2,
     "special_instruction": "Please make it less spicy than usual, add extra raita on the side, and ensure the rice is well-cooked and fluffy.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 30
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "table_no": 3,
     "quantity": 1,
     "special_instruction": "Serve with fresh lemon wedges, add a small portion of garlic butter on top, and make sure it is grilled thoroughly but not burnt.",
-    "waiterId": "W-02"
+    "waiterId": "W-02",
+    "cooked_At": 25
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "table_no": 7,
     "quantity": 3,
     "special_instruction": "Add extra cheese slices, do not include onions or pickles, and please toast the buns lightly so they stay crunchy.",
-    "waiterId": "W-03"
+    "waiterId": "W-03",
+    "cooked_At": 15
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "table_no": 2,
     "quantity": 2,
     "special_instruction": "Make the sauce creamy with extra mushrooms, serve with garlic bread on the side, and sprinkle a bit of oregano on top before serving.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 20
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "table_no": 4,
     "quantity": 1,
     "special_instruction": "Cook it well so it is crispy outside but juicy inside, add extra salad on the side, and avoid using too much oil in the marination.",
-    "waiterId": "W-04"
+    "waiterId": "W-04",
+    "cooked_At": 35
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "table_no": 6,
     "quantity": 2,
     "special_instruction": "Make the gravy thick and creamy, add a little extra butter on top before serving, and avoid making it too sweet.",
-    "waiterId": "W-02"
+    "waiterId": "W-02",
+    "cooked_At": 25
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "table_no": 8,
     "quantity": 1,
     "special_instruction": "Use fresh romaine lettuce, add extra parmesan cheese, keep the croutons crunchy, and serve the dressing on the side.",
-    "waiterId": "W-03"
+    "waiterId": "W-03",
+    "cooked_At": 10
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "table_no": 1,
     "quantity": 2,
     "special_instruction": "Make the curry medium spicy, add extra gravy, and ensure the mutton pieces are soft and well-cooked.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 40
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "table_no": 3,
     "quantity": 1,
     "special_instruction": "Add extra vegetables like carrots and beans, reduce soy sauce slightly, and serve hot with chili sauce on the side.",
-    "waiterId": "W-02"
+    "waiterId": "W-02",
+    "cooked_At": 15
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "table_no": 6,
     "quantity": 2,
     "special_instruction": "Use fresh mozzarella cheese, bake until the crust is golden, and drizzle a small amount of olive oil before serving.",
-    "waiterId": "W-04"
+    "waiterId": "W-04",
+    "cooked_At": 20
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "table_no": 2,
     "quantity": 3,
     "special_instruction": "Include extra garlic sauce, add some spicy mayo, and wrap tightly to keep it warm and juicy.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 18
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "table_no": 4,
     "quantity": 1,
     "special_instruction": "Cook medium rare, add peppercorn sauce, serve with mashed potatoes and steamed vegetables on the side.",
-    "waiterId": "W-03"
+    "waiterId": "W-03",
+    "cooked_At": 30
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "table_no": 7,
     "quantity": 2,
     "special_instruction": "Add extra chicken pieces, keep noodles slightly dry, and serve with chili vinegar and soy sauce.",
-    "waiterId": "W-02"
+    "waiterId": "W-02",
+    "cooked_At": 15
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "table_no": 5,
     "quantity": 1,
     "special_instruction": "Use fresh cucumbers and olives, add feta cheese generously, and serve the dressing separately.",
-    "waiterId": "W-04"
+    "waiterId": "W-04",
+    "cooked_At": 10
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "table_no": 8,
     "quantity": 4,
     "special_instruction": "Brush with extra butter just before serving and make sure the naan stays soft and warm.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 8
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "table_no": 2,
     "quantity": 2,
     "special_instruction": "Serve hot with a sprinkle of black pepper, add extra shredded chicken, and keep the broth light but flavorful.",
-    "waiterId": "W-03"
+    "waiterId": "W-03",
+    "cooked_At": 12
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "table_no": 3,
     "quantity": 2,
     "special_instruction": "Include fresh lettuce and tomatoes, add a light layer of mayonnaise, and toast the bread slightly for crunch.",
-    "waiterId": "W-02"
+    "waiterId": "W-02",
+    "cooked_At": 10
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "table_no": 1,
     "quantity": 1,
     "special_instruction": "Grill evenly on both sides, brush with rosemary butter, and serve with mint chutney and a lemon wedge.",
-    "waiterId": "W-04"
+    "waiterId": "W-04",
+    "cooked_At": 35
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "table_no": 5,
     "quantity": 2,
     "special_instruction": "Use fresh prawns, make it medium spicy, and serve with steamed basmati rice and lemon slices.",
-    "waiterId": "W-01"
+    "waiterId": "W-01",
+    "cooked_At": 28
   },
   {
     "id": 20,
@@ -177,6 +196,7 @@
     "table_no": 4,
     "quantity": 3,
     "special_instruction": "Add extra chicken and cheese layers, avoid pickles, and serve with french fries and tomato ketchup.",
-    "waiterId": "W-03"
+    "waiterId": "W-03",
+    "cooked_At": 15
   }
 ]

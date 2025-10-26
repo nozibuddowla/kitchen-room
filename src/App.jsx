@@ -17,14 +17,17 @@ function App() {
       <header className='w-11/12 mx-auto py-4'>
         <Navbar />
       </header>
+      
       <section>
         <Heading>Kitchen Room</Heading>
       </section>
+
       <section>
         <Suspense fallback={`Loading. . . . ⏳`}>
           <OrderContainer promise={ordersPromise} />
         </Suspense>
       </section>
+
       <ToastContainer />
     </>
   )
