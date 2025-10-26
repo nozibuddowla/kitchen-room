@@ -6,10 +6,10 @@ import Navbar from './components/Navbar'
 import OrderContainer from './components/OrderContainer';
 import { ToastContainer } from 'react-toastify';
 
-const loadOrders = fetch("/orders.json").then(res => res.json());
+const loadOrders = () =>fetch("/orders.json").then(res => res.json());
 
 function App() {
-  const ordersPromise = loadOrders;
+  const ordersPromise = loadOrders();
   
   return (
     <>
