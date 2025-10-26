@@ -61,5 +61,122 @@
     "quantity": 1,
     "special_instruction": "Use fresh romaine lettuce, add extra parmesan cheese, keep the croutons crunchy, and serve the dressing on the side.",
     "waiterId": "W-03"
+  },
+  {
+    "id": 8,
+    "order_no": "ORD-1008",
+    "order_title": "Mutton Curry",
+    "table_no": 1,
+    "quantity": 2,
+    "special_instruction": "Make the curry medium spicy, add extra gravy, and ensure the mutton pieces are soft and well-cooked.",
+    "waiterId": "W-01"
+  },
+  {
+    "id": 9,
+    "order_no": "ORD-1009",
+    "order_title": "Veg Fried Rice",
+    "table_no": 3,
+    "quantity": 1,
+    "special_instruction": "Add extra vegetables like carrots and beans, reduce soy sauce slightly, and serve hot with chili sauce on the side.",
+    "waiterId": "W-02"
+  },
+  {
+    "id": 10,
+    "order_no": "ORD-1010",
+    "order_title": "Margherita Pizza",
+    "table_no": 6,
+    "quantity": 2,
+    "special_instruction": "Use fresh mozzarella cheese, bake until the crust is golden, and drizzle a small amount of olive oil before serving.",
+    "waiterId": "W-04"
+  },
+  {
+    "id": 11,
+    "order_no": "ORD-1011",
+    "order_title": "Chicken Shawarma",
+    "table_no": 2,
+    "quantity": 3,
+    "special_instruction": "Include extra garlic sauce, add some spicy mayo, and wrap tightly to keep it warm and juicy.",
+    "waiterId": "W-01"
+  },
+  {
+    "id": 12,
+    "order_no": "ORD-1012",
+    "order_title": "Beef Steak",
+    "table_no": 4,
+    "quantity": 1,
+    "special_instruction": "Cook medium rare, add peppercorn sauce, serve with mashed potatoes and steamed vegetables on the side.",
+    "waiterId": "W-03"
+  },
+  {
+    "id": 13,
+    "order_no": "ORD-1013",
+    "order_title": "Chicken Noodles",
+    "table_no": 7,
+    "quantity": 2,
+    "special_instruction": "Add extra chicken pieces, keep noodles slightly dry, and serve with chili vinegar and soy sauce.",
+    "waiterId": "W-02"
+  },
+  {
+    "id": 14,
+    "order_no": "ORD-1014",
+    "order_title": "Greek Salad",
+    "table_no": 5,
+    "quantity": 1,
+    "special_instruction": "Use fresh cucumbers and olives, add feta cheese generously, and serve the dressing separately.",
+    "waiterId": "W-04"
+  },
+  {
+    "id": 15,
+    "order_no": "ORD-1015",
+    "order_title": "Butter Naan",
+    "table_no": 8,
+    "quantity": 4,
+    "special_instruction": "Brush with extra butter just before serving and make sure the naan stays soft and warm.",
+    "waiterId": "W-01"
+  },
+  {
+    "id": 16,
+    "order_no": "ORD-1016",
+    "order_title": "Chicken Soup",
+    "table_no": 2,
+    "quantity": 2,
+    "special_instruction": "Serve hot with a sprinkle of black pepper, add extra shredded chicken, and keep the broth light but flavorful.",
+    "waiterId": "W-03"
+  },
+  {
+    "id": 17,
+    "order_no": "ORD-1017",
+    "order_title": "Veg Sandwich",
+    "table_no": 3,
+    "quantity": 2,
+    "special_instruction": "Include fresh lettuce and tomatoes, add a light layer of mayonnaise, and toast the bread slightly for crunch.",
+    "waiterId": "W-02"
+  },
+  {
+    "id": 18,
+    "order_no": "ORD-1018",
+    "order_title": "Lamb Chops",
+    "table_no": 1,
+    "quantity": 1,
+    "special_instruction": "Grill evenly on both sides, brush with rosemary butter, and serve with mint chutney and a lemon wedge.",
+    "waiterId": "W-04"
+  },
+  {
+    "id": 19,
+    "order_no": "ORD-1019",
+    "order_title": "Prawn Curry",
+    "table_no": 5,
+    "quantity": 2,
+    "special_instruction": "Use fresh prawns, make it medium spicy, and serve with steamed basmati rice and lemon slices.",
+    "waiterId": "W-01"
+  },
+  {
+    "id": 20,
+    "order_no": "ORD-1020",
+    "order_title": "Club Sandwich",
+    "table_no": 4,
+    "quantity": 3,
+    "special_instruction": "Add extra chicken and cheese layers, avoid pickles, and serve with french fries and tomato ketchup.",
+    "waiterId": "W-03"
   }
 ]
